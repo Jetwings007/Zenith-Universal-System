@@ -1,0 +1,15 @@
+/* Zenith Preset Bundle: AI SaaS
+   Include this file after tokens.css for quick brand switching. */
+:root {
+  --zenith-bg: #f4fbff;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #eaf7ff;
+  --zenith-text: #081d29;
+  --zenith-muted: #4b6673;
+  --zenith-primary: #0f7be7;
+  --zenith-primary-strong: #095ab1;
+  --zenith-accent: #00b9a6;
+  --zenith-spark: #ff9d1f;
+  --zenith-border: #cfe8fb;
+  --zenith-ring: rgba(15, 123, 231, 0.24);
+}

@@ -1,0 +1,15 @@
+/* Zenith Preset Bundle: Finance SaaS
+   Include this file after tokens.css for quick brand switching. */
+:root {
+  --zenith-bg: #f2fbf5;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #e8f8ed;
+  --zenith-text: #0f1f17;
+  --zenith-muted: #496454;
+  --zenith-primary: #0f8e52;
+  --zenith-primary-strong: #0a6c3d;
+  --zenith-accent: #166de0;
+  --zenith-spark: #ff9a2c;
+  --zenith-border: #cce7d7;
+  --zenith-ring: rgba(15, 142, 82, 0.24);
+}

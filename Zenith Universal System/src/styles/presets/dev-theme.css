@@ -1,0 +1,15 @@
+/* Zenith Preset Bundle: Developer Tools
+   Include this file after tokens.css for quick brand switching. */
+:root {
+  --zenith-bg: #f7f8ff;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #eff0ff;
+  --zenith-text: #13172b;
+  --zenith-muted: #596085;
+  --zenith-primary: #4552ff;
+  --zenith-primary-strong: #333fc9;
+  --zenith-accent: #00a0a9;
+  --zenith-spark: #ff9751;
+  --zenith-border: #dadcff;
+  --zenith-ring: rgba(69, 82, 255, 0.24);
+}

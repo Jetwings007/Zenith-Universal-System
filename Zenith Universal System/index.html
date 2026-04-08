@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenith | Universal SaaS Landing Page System</title>
+    <meta
+      name="description"
+      content="Zenith solves developer, designer, and beginner landing-page challenges with a conversion-first universal system."
+    />
+    <meta name="theme-color" content="#1658ff" />
+    <link rel="stylesheet" href="src/styles/tokens.css" />
+    <link rel="stylesheet" href="src/styles/zenith.css" />
+    <script defer src="src/scripts/zenith.js"></script>
+  </head>
+  <body>
+    <div class="zenith-background" aria-hidden="true"></div>
+
+    <header class="topbar-wrap">
+      <div class="container topbar">
+        <a href="#" class="brand">
+          <!-- Replace with your own logo file when rebranding Zenith -->
+          <img
+            class="brand-logo"
+            src="assets/icons/logo-zenith.svg"
+            alt="Zenith logo"
+            width="160"
+            height="40"
+          />
+          <span class="visually-hidden">Zenith</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          data-nav-toggle
+          aria-controls="site-nav"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+
+        <nav class="nav" id="site-nav" data-nav>
+          <a href="#challenges">Challenges</a>
+          <a href="#system">System</a>
+          <a href="#copy">Copy Engine</a>
+          <a href="#faq">FAQ</a>
+          <a href="#waitlist">Waitlist</a>
+          <a href="#launch">Launch</a>
+        </nav>
+
+        <a href="docs/marketplace-launch.md" class="btn btn-secondary desktop-only"
+          >Go-To-Market</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container reveal">
+        <div class="hero-grid">
+          <article class="hero-copy">
+            <span class="badge">Developer-First Universal System</span>
+            <h1 class="hero-title">
+              Launch and convert in hours, even without advanced design skills.
+            </h1>
+            <p class="hero-sub">
+              Zenith is not just a template. It is a conversion-focused SaaS landing
+              page system for developers, designers, and beginners.
+            </p>
+            <p class="hero-hint">
+              <strong>Copy Formula:</strong> [Outcome] for [Audience] without [Pain]
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#system">See Zenith Stack</a>
+              <a class="btn btn-secondary" href="docs/copywriting-cheatsheet.md"
+                >Copywriting Cheat Sheet</a
+              >
+            </div>
+            <div class="theme-switch" aria-label="Niche presets">
+              <button class="theme-pill active" data-theme="default">
+                Core SaaS
+              </button>
+              <button class="theme-pill" data-theme="ai">AI SaaS</button>
+              <button class="theme-pill" data-theme="finance">
+                Finance SaaS
+              </button>
+              <button class="theme-pill" data-theme="devtools">
+                Dev Tools
+              </button>
+              <button class="theme-pill" data-theme="studio">Studio</button>
+            </div>
+          </article>
+
+          <aside class="hero-panel">
+            <div class="kpi-strip">
+              <div class="kpi">
+                <strong>100/100</strong>
+                <span>Manifesto target</span>
+              </div>
+              <div class="kpi">
+                <strong>2-click</strong>
+                <span>Full rebrand</span>
+              </div>
+              <div class="kpi">
+                <strong>0</strong>
+                <span>Required plugins</span>
+              </div>
+            </div>
+            <div class="stack-cards">
+              <div class="stack-item">
+                <i></i>
+                <div>
+                  <h3>Proven SaaS Structure</h3>
+                  <p>Hero, problem-solution, features, social proof, pricing, FAQ.</p>
+                </div>
+              </div>
+              <div class="stack-item">
+                <i></i>
+                <div>
+                  <h3>Fill-In Copy Guidance</h3>
+                  <p>Built-in formulas for headlines, benefits, and CTA messaging.</p>
+                </div>
+              </div>
+              <div class="stack-item">
+                <i></i>
+                <div>
+                  <h3>Fast + Mobile + Maintainable</h3>
+                  <p>Lightweight CSS/JS and clear structure for faster iteration.</p>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="challenges" class="section container reveal">
+        <div class="section-head">
+          <h2>Core Challenges Zenith Solves</h2>
+          <p>
+            These are the highest-friction problems for developers, designers, and
+            beginner founders building SaaS pages.
+          </p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <!-- Replace placeholder images before sale launch to protect performance reputation -->
+            <img
+              class="media-placeholder"
+              src="https://placehold.co/600x400/svg?text=Developer+Challenge"
+              alt="Developer challenge placeholder"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>Developers: Great product, weak landing page</h3>
+            <p>
+              Zenith provides conversion structure and mobile-safe layouts so devs
+              can focus on shipping product.
+            </p>
+            <span class="tag">Developer-First</span>
+          </article>
+          <article class="card">
+            <img
+              class="media-placeholder"
+              src="https://placehold.co/600x400/svg?text=Designer+System"
+              alt="Designer system placeholder"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>Designers: Reinventing layout each project</h3>
+            <p>
+              Zenith includes tokenized styles and reusable components for repeatable
+              quality and faster delivery.
+            </p>
+            <span class="tag">Design System</span>
+          </article>
+          <article class="card">
+            <img
+              class="media-placeholder"
+              src="https://placehold.co/600x400/svg?text=Beginner+Launch"
+              alt="Beginner launch placeholder"
+              width="600"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <h3>Beginners: Overwhelmed by what to write</h3>
+            <p>
+              Zenith includes fill-in prompts and a step-by-step launch flow so ideas
+              can go live quickly.
+            </p>
+            <span class="tag">Beginner Friendly</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="system" class="section container reveal">
+        <div class="section-head">
+          <h2>The Zenith Universal Solution Stack</h2>
+          <p>
+            Beyond your list, Zenith also addresses technical and operational pain
+            points that commonly block SaaS growth.
+          </p>
+        </div>
+        <div class="matrix-grid">
+          <article class="matrix-card">
+            <h3>Low Conversion Rates</h3>
+            <p>
+              CTA hierarchy, social proof areas, and outcome-first section ordering
+              are built into the default structure.
+            </p>
+          </article>
+          <article class="matrix-card">
+            <h3>Generic Template Look</h3>
+            <p>
+              Niche presets and tokenized visual identity let you ship distinct
+              market-specific variants.
+            </p>
+          </article>
+          <article class="matrix-card">
+            <h3>Too Much Post-Purchase Guesswork</h3>
+            <p>
+              Structured docs, copy prompts, and reusable snippets remove "what now?"
+              friction.
+            </p>
+          </article>
+          <article class="matrix-card">
+            <h3>Accessibility Gaps</h3>
+            <p>
+              Keyboard-focus styles, semantic HTML, and color-contrast-aware defaults
+              improve usability for all users.
+            </p>
+          </article>
+          <article class="matrix-card">
+            <h3>SEO and Discoverability Gaps</h3>
+            <p>
+              Clean heading hierarchy, metadata pattern, and lightweight markup support
+              strong indexing performance.
+            </p>
+          </article>
+          <article class="matrix-card">
+            <h3>Maintenance and Team Handoff</h3>
+            <p>
+              World-class folder organization and named sections make future edits and
+              collaboration much easier.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="copy" class="section container reveal">
+        <div class="section-head">
+          <h2>Built-In Copywriting Engine</h2>
+          <p>
+            Zenith includes practical copy formulas so users can publish faster without
+            hiring copywriters first.
+          </p>
+        </div>
+        <div class="formula-grid">
+          <article class="formula-card">
+            <h3>Value Proposition</h3>
+            <p>Clarify the main promise in one line.</p>
+            <code>[Outcome] for [Audience] without [Pain]</code>
+          </article>
+          <article class="formula-card">
+            <h3>Problem Section</h3>
+            <p>Connect with buyer frustration quickly.</p>
+            <code>If you are tired of [Pain], Zenith helps you [Outcome].</code>
+          </article>
+          <article class="formula-card">
+            <h3>CTA Line</h3>
+            <p>Turn attention into action with low friction.</p>
+            <code>Start [Outcome] in [Time] with no [Barrier].</code>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal">
+        <div class="section-head">
+          <h2>Launch In 1 Hour Workflow</h2>
+          <p>
+            Designed for indie hackers and beginner founders who need clarity and
+            speed.
+          </p>
+        </div>
+        <div class="step-grid">
+          <article class="step-card">
+            <span class="step-num">1</span>
+            <h3>Pick a Niche Preset</h3>
+            <p>Select AI SaaS, Finance SaaS, Dev Tools, or Studio style.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-num">2</span>
+            <h3>Fill The Copy Formulas</h3>
+            <p>Replace placeholders in hero, features, and CTA sections.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-num">3</span>
+            <h3>Set Pricing + FAQ</h3>
+            <p>Add your plan logic and remove objections before launch.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal">
+        <div class="section-head">
+          <h2>The Zenith Manifesto In Product Form</h2>
+          <p>Your three pillars are encoded directly in the build approach.</p>
+        </div>
+        <div class="manifesto-grid">
+          <article class="manifesto-card">
+            <h3>The 100/100 Rule</h3>
+            <p>
+              Lightweight architecture, minimal script footprint, and semantic markup
+              keep Lighthouse performance potential high.
+            </p>
+            <ul class="pill-list">
+              <li>Optimized CSS and JS paths</li>
+              <li>No bulky runtime frameworks required</li>
+              <li>SEO-ready structure and metadata</li>
+            </ul>
+          </article>
+          <article class="manifesto-card">
+            <h3>The Two-Click Rebrand</h3>
+            <p>
+              Update brand identity in one place using token variables in
+              `src/styles/tokens.css`.
+            </p>
+            <ul class="pill-list">
+              <li>Colors, spacing, radius, and fonts</li>
+              <li>Niche presets included</li>
+              <li>Consistent visual output site-wide</li>
+            </ul>
+          </article>
+          <article class="manifesto-card">
+            <h3>Zero Dependency</h3>
+            <p>
+              Zenith has no mandatory third-party plugin requirements. Native stack
+              only: HTML, CSS, and JavaScript.
+            </p>
+            <ul class="pill-list">
+              <li>No plugin lock-in risk</li>
+              <li>No fragile dependency chain</li>
+              <li>Easier long-term maintenance</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="section container reveal">
+        <div class="section-head">
+          <h2>Productize Zenith for Multiple Buyers</h2>
+          <p>
+            Sell a system, not just a page. These tiers map to buyer maturity and
+            budget.
+          </p>
+        </div>
+        <div class="pricing">
+          <article class="price-card">
+            <h3>Zenith Starter</h3>
+            <p class="price">$29 <small>single landing pack</small></p>
+            <ul class="pill-list">
+              <li>One niche homepage</li>
+              <li>Copy formulas included</li>
+              <li>Setup checklist</li>
+            </ul>
+          </article>
+
+          <article class="price-card featured">
+            <h3>Zenith Pro</h3>
+            <p class="price">$79 <small>multi-page bundle</small></p>
+            <ul class="pill-list">
+              <li>Hero and pricing variants</li>
+              <li>Social proof and FAQ sections</li>
+              <li>Marketplace-ready docs</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <h3>Zenith Platform Edition</h3>
+            <p class="price">$149 <small>cross-platform path</small></p>
+            <ul class="pill-list">
+              <li>Conversion to CMS and builders</li>
+              <li>Advanced component library</li>
+              <li>Commercial support positioning</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="section container reveal">
+        <div class="section-head">
+          <h2>Frequently Asked Questions</h2>
+          <p>Built-in answers to common pre-purchase objections.</p>
+        </div>
+        <div class="faq-grid">
+          <details>
+            <summary>Is Zenith only for developers?</summary>
+            <p>
+              No. It is built for developers, designers, and beginners with guidance
+              and reusable sections for all skill levels.
+            </p>
+          </details>
+          <details>
+            <summary>Can I rebrand quickly for multiple clients?</summary>
+            <p>
+              Yes. Edit `src/styles/tokens.css` and switch content blocks. Zenith is
+              designed for fast niche adaptation.
+            </p>
+          </details>
+          <details>
+            <summary>Do I need external plugins to use Zenith?</summary>
+            <p>
+              No. Zenith follows a zero-dependency model, so the core experience does
+              not require third-party plugin installation.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="waitlist" class="section container reveal">
+        <div class="section-head">
+          <h2>Waitlist Form: Complete Buyer Flow</h2>
+          <p>
+            This section gives beginners a real conversion flow. It submits to
+            `success.html` by default and can be connected to Formspree or Netlify
+            Forms in minutes.
+          </p>
+        </div>
+        <div class="form-wrap">
+          <!-- Service Integration:
+               1) Formspree: set method to POST and action to https://formspree.io/f/your-id
+               2) Netlify Forms: set method to POST and add data-netlify="true" + form name -->
+          <form class="zenith-form" action="success.html" method="GET">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="project">What are you building?</label>
+            <input id="project" name="project" type="text" />
+
+            <button class="btn btn-primary" type="submit">
+              Join Zenith Waitlist
+            </button>
+          </form>
+          <p class="form-note">
+            Need email delivery? See integration steps in README and
+            `docs/form-integration.md`.
+          </p>
+        </div>
+      </section>
+
+      <section id="launch" class="container reveal">
+        <div class="cta-panel">
+          <div>
+            <h2>Zenith is now positioned as a universal launch-and-convert system.</h2>
+            <p>
+              It solves design friction, copy confusion, conversion gaps, and
+              maintainability pain in one product architecture.
+            </p>
+            <p class="note">
+              Next: package niche editions and publish across marketplace channels.
+            </p>
+          </div>
+          <a class="btn btn-secondary" href="docs/marketplace-launch.md"
+            >Open Launch Plan</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Zenith Universal System. Build once. Rebrand fast. Convert better. Copyright
+          <span data-year></span>.
+        </p>
+        <p class="footer-links">
+          <a href="legal.html">Legal</a>
+          <a href="success.html">Success Page</a>
+          <a href="404.html">404 Page</a>
+          <a href="docs/preflight-lighthouse.md">Pre-Flight Checklist</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

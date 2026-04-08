@@ -1,0 +1,84 @@
+/* Zenith Two-Click Rebrand File
+   Edit this file to rebrand Zenith across all pages. */
+:root {
+  --zenith-font-body: "Trebuchet MS", "Segoe UI", "Tahoma", sans-serif;
+  --zenith-font-heading: "Franklin Gothic Medium", "Candara", "Trebuchet MS",
+    sans-serif;
+
+  --zenith-bg: #eff4ff;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #e9f0ff;
+  --zenith-text: #0d1830;
+  --zenith-muted: #52617f;
+  --zenith-primary: #1658ff;
+  --zenith-primary-strong: #0d41bf;
+  --zenith-accent: #00b895;
+  --zenith-spark: #fba313;
+  --zenith-border: #d4e0ff;
+  --zenith-ring: rgba(22, 88, 255, 0.22);
+
+  --zenith-shadow-soft: 0 14px 30px rgba(14, 37, 93, 0.1);
+  --zenith-shadow-strong: 0 20px 48px rgba(14, 37, 93, 0.18);
+
+  --zenith-radius-xl: 26px;
+  --zenith-radius-lg: 18px;
+  --zenith-radius-md: 12px;
+  --zenith-radius-sm: 10px;
+  --zenith-container: 1140px;
+}
+
+body.theme-ai {
+  --zenith-bg: #f4fbff;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #eaf7ff;
+  --zenith-text: #081d29;
+  --zenith-muted: #4b6673;
+  --zenith-primary: #0f7be7;
+  --zenith-primary-strong: #095ab1;
+  --zenith-accent: #00b9a6;
+  --zenith-spark: #ff9d1f;
+  --zenith-border: #cfe8fb;
+  --zenith-ring: rgba(15, 123, 231, 0.24);
+}
+
+body.theme-finance {
+  --zenith-bg: #f2fbf5;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #e8f8ed;
+  --zenith-text: #0f1f17;
+  --zenith-muted: #496454;
+  --zenith-primary: #0f8e52;
+  --zenith-primary-strong: #0a6c3d;
+  --zenith-accent: #166de0;
+  --zenith-spark: #ff9a2c;
+  --zenith-border: #cce7d7;
+  --zenith-ring: rgba(15, 142, 82, 0.24);
+}
+
+body.theme-studio {
+  --zenith-bg: #fff8f2;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #fff0e5;
+  --zenith-text: #23111f;
+  --zenith-muted: #624c63;
+  --zenith-primary: #ff6d1f;
+  --zenith-primary-strong: #d3530d;
+  --zenith-accent: #0097a8;
+  --zenith-spark: #8f5cff;
+  --zenith-border: #ffd8bf;
+  --zenith-ring: rgba(255, 109, 31, 0.24);
+}
+
+body.theme-devtools {
+  --zenith-bg: #f7f8ff;
+  --zenith-surface: #ffffff;
+  --zenith-surface-soft: #eff0ff;
+  --zenith-text: #13172b;
+  --zenith-muted: #596085;
+  --zenith-primary: #4552ff;
+  --zenith-primary-strong: #333fc9;
+  --zenith-accent: #00a0a9;
+  --zenith-spark: #ff9751;
+  --zenith-border: #dadcff;
+  --zenith-ring: rgba(69, 82, 255, 0.24);
+}
