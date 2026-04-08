@@ -111,6 +111,4 @@ Checklist: `docs/preflight-lighthouse.md`
 
 ## Positioning Statement
 
-Sell Zenith as:
-
 **"A developer-first SaaS landing page system that helps you launch and convert in hours, without design bottlenecks."**
